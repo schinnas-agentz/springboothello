@@ -1,9 +1,9 @@
 {
-  "family": "springboothello-%SPRING_PROFILE%",
+  "family": "springboothello-%environment%",
   "containerDefinitions": [
     {
-      "image": "%REPOSITORY_URI%:%SPRING_PROFILE%",
-      "name": "springboothello-%SPRING_PROFILE%",
+      "image": "%REPOSITORY_URI%:%environment%",
+      "name": "springboothello",
       "cpu": 250,
       "memoryReservation": 128,
       "essential": true,
