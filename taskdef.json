@@ -7,6 +7,9 @@
       "cpu": 250,
       "memoryReservation": 128,
       "essential": true,
+      "dockerLabels": {
+        "service": "springboothello"
+      },
       "portMappings": [
         {
           "containerPort": 5000,
