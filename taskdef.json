@@ -1,9 +1,9 @@
 {
-  "family": "gs-spring-boot-%SPRING_PROFILE%",
+  "family": "springboothello-%SPRING_PROFILE%",
   "containerDefinitions": [
     {
-      "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-      "name": "gs-spring-boot-%SPRING_PROFILE%",
+      "image": "%REPOSITORY_URI%:latest",
+      "name": "springboothello-%SPRING_PROFILE%",
       "cpu": 250,
       "memoryReservation": 128,
       "essential": true,
