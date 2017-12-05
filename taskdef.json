@@ -2,7 +2,7 @@
   "family": "springboothello-%SPRING_PROFILE%",
   "containerDefinitions": [
     {
-      "image": "%REPOSITORY_URI%:latest",
+      "image": "%REPOSITORY_URI%:%SPRING_PROFILE%",
       "name": "springboothello-%SPRING_PROFILE%",
       "cpu": 250,
       "memoryReservation": 128,
